@@ -3,8 +3,7 @@ body {
 }
 #main {
   padding: 5px;
-  width: 50vw;
-  height: 80%;
+  width: 80vmin;
   display: flex;
   flex-direction: column;
   background-color: rgba(80, 20, 80, .5);
@@ -22,17 +21,22 @@ body {
 
 h1{
   font-family: 'Neucha', cursive;
-  font-size: 3vw;
+  font-size: 5vmin;
 }
 
 #img-div {
   padding: 20px 10px 5px 10px;
-  background-color: rgba(255 255 255);
+  background-color: rgb(255 255 255);
   border-radius: 10px;
   width: 50%;
   margin: auto;
 }
+#img-div img{
+  width: 35vmin;
+}
+
 article p {margin-top: 15px;}
+
 #image {
   display: block;
   margin: auto;
@@ -42,35 +46,31 @@ article p {margin-top: 15px;}
 #img-caption {
   color: black;
   align-self: top;
-  font-size: 1.1vw;
+  font-size: 2vmin;
 }
 
 #tribute-info {
-  width: 75%;
+  width: 90%;
   margin: auto;
-  font-size: 1vw;
-}
-@media (max-width: 400px){
-  #main {
-    border-width: 5px;
-  }
-  #tribute-info {
-  width: 75%;
-  margin: auto;
-  font-size: 2vw;
-}
-  #footer {
-    font-size: 2vw;
-  }
-  #img-div {
-    padding-top: 10px;
-    padding-bottom: 2px;
-  }
-  #img-caption {
-  font-size: 1.4vw;
-}
+  font-size: 2.5vmin;
 }
 
+button {
+  background-color: rgb(204, 0, 255); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
 #tribute-link {
   color: #9ec3f5;
+}
+.bigger_text{
+  font-size: 2.5vmin;
+}
+.smaller_margins {
+  margin-bottom: 15px;
 }

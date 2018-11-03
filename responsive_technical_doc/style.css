@@ -22,10 +22,7 @@
     color: black;
     font-family: verdana, sans;
     display: grid;
-    
-    display: grid;
     grid-template-columns: 25% 75%;
-    grid-template-rows: 100%;
     border: 2px solid rgb(247, 178, 42);
     border-radius: 15px;
     

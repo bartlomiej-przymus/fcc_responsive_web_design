@@ -1,0 +1,71 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<div id="main_container">
+<header>
+  <h1 id="title">Survey of coffee consumption amongst the developers </h1>
+  <p id="description">Data from this survey will aid research into effects of prolonged coffee consumption on the quality of code.<br><span style="font-size: .9em; color: red;"> Note: asterisk '*' means that the field is required.</span></p>
+</header>
+  <hr/>
+<article>
+  <form id="survey-form">
+    <div id="toleft">
+    <label class="margin" id="name-label" for="name">Your Name*:</label>
+      <input class="margin" id="name" name="name" type="text" required placeholder="Enter Your Name Here" focus>
+    <label class="margin" id="email-label" for="email">Email*:</label>
+      <input class="margin" id="email" name="email" type="email" required placeholder="Enter Your email address">
+    <label class="margin" id="number-label" for="number">Please provide your age:</label>
+      <input class="margin" id="number" name="age" type="number" min="10" max="100" required placeholder="Age">
+    </div>
+      <hr/>
+    <div id="toleft">
+    <label class="margin" id="dropdown-label" for="dropdown">How many cups of coffee do you drink per day?</label>
+      <select class="margin" name="dropdown" id="dropdown">
+        <option value="low">1 to 3</option>
+        <option value="medium">3 to 6</option>
+        <option value="high">6 or more</option>
+      </select>
+    </div>
+    <fieldset class="margin">
+      <legend>How strong is the coffee that you drink?</legend>
+      <div id="flex1">
+        <div id="radio"><input type="radio" id="1spoon" name="strength" value="weak"><label for="1spoon">Weak (1 spoon per cup)</label></div>
+        <div id="radio"><input type="radio" id="2spoon" name="strength" value="medium"><label for="2spoon">Medium (2 spoons per cup)</label></div>
+        <div id="radio"><input type="radio" id="3spoon" name="strength" value="strong"><label for="3spoon">Strong (3 spoons per cup)</label></div>
+        <div id="radio"><input type="radio" id="4spoon" name="strength" value="insane"><label for="4spoon">The heart stomper (4 or more spoons)</label>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset class="margin">
+      <legend>Do you add something to your coffee?</legend>
+      <div class="checkbox1">
+        <input type="checkbox" id="milk" name="ingredients" value="milk"><label for="milk">Milk</label>
+      </div>
+      <div class="checkbox1">
+        <input type="checkbox" id="cream" name="ingredients" value="cream"><label for="cream">Cream</label>
+      </div>
+      <div class="checkbox1">
+      <input type="checkbox" id="hazelnut" name="ingredients" value="hazelnut"><label for="hazelnut">Hazelnut syrup</label>
+      </div>
+      <div class="checkbox1">
+      <input type="checkbox" id="chocolate" name="ingredients" value="chocolate"><label for="chocolate">Chocolate</label>
+      </div>
+      <div class="checkbox1">
+      <input type="checkbox" id="sugar" name="ingredients" value="sugar"><label for="sugar">Sugar</label>
+      </div>
+    </fieldset>
+    <div id="toleft">
+    <label class="margin" for="user-thoughts">Do you think drinking coffee impacts your coding ability in any way?</label></br>
+     </div>
+    <textarea class="margin" id="user-thoughts" name="user-thoughts" rows="4" maxlength="200" wrap="hard" placeholder="Please enter your thoughts here max 200 chars."></textarea><br>
+   
+  <input class="margin" id="submit" type="submit" value="Submit my Answers">
+  </form>
+</article>
+<footer>
+</footer>
+</div>
+</body>

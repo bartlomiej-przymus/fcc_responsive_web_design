@@ -1,0 +1,63 @@
+#main_container {
+  width: 70%;
+  margin: 50px auto;
+  text-align: center;
+  font-family: verdana, sans;
+  line-height: 1;
+  background-color: #C2C2C2;
+  border-radius: 5px;
+  padding: 20px;
+  color: rgb(86, 30, 0);
+  display: block;
+}
+header {
+  padding: 5px;
+}
+header h1{
+  font-size: 1.7em;
+  margin: 2px;
+  padding: 0;
+}
+header p {
+  padding-top: 10px;
+  margin: 5px;
+  font-size: 1em;
+}
+hr {
+  margin 5px 0;
+}
+#dropdown{
+  margin-left: 20px;
+}
+legend {
+  color: white;
+  padding: 3px 5px;
+  background-color: grey;
+}
+#toleft{
+  text-align: left;
+}
+.margin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  text-align: left;
+}
+legend {
+  text-align: left;
+}
+#flex1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+} 
+ #radio{
+  width: 50%;
+  margin-bottom: 10px;
+}
+#user-thoughts {
+  width: 80%;
+}
+.margin

@@ -1,0 +1,150 @@
+@media screen (max-width: 600px){
+  #main-doc
+  {
+    display: grid;
+  }
+  #navbar
+  {
+    
+  }
+  .main-section
+  {
+    
+  }
+}
+#main-doc
+{
+    /* reset any inheritance */
+    margin: 0; 
+    padding: 0;
+    width: 90%;
+    margin: 20px auto;
+    color: black;
+    font-family: verdana, sans;
+    display: grid;
+    
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 100%;
+    border: 2px solid rgb(247, 178, 42);
+    border-radius: 15px;
+    
+    overflow: hidden;
+}
+  /* colors: rgb(247, 178, 42); */
+#navbar
+{
+    grid-row-start: 1;
+    grid-row-end: 10;
+    background-color: rgb(247, 178, 42);
+}
+#footer
+{
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 10;
+    grid-row-end: 11;
+    background-color: black;
+    height: 7vmin;
+    font-size: 2vmin;
+  color: white;
+}
+.to_top
+{
+  display: none;
+  position: fixed;
+  bottom: 3em;
+  left: 6em;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, .7);
+  font-size: 12px;
+  padding: 1em;
+  
+}
+.to_top:hover
+{
+  background-color: rgba(0, 0, 0, .9);
+}
+.nav-link
+{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(149, 109, 6);
+    display: block;
+    height: 4vmin;
+    margin: 5px 2px;
+    padding-top: 8px;
+}
+.nav-link h3
+{
+    margin: 0;
+    padding-left: .5em;
+   
+    font-weight: normal;
+    
+    font-size: 2vmin;
+}
+#topic h2
+{
+    font-size: 2.3vmin;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    margin-top: 0;
+    background-color: black;
+    text-align: center;
+    margin-bottom: .4em;
+}
+.main-section
+{
+    padding: 0 20px;
+}
+.main-section ul
+{
+  margin-left: 0;
+  padding-left: 15px;
+  list-style-type: square;
+}
+.main-section header
+{
+    display: block;
+    background-color: rgb(247, 178, 42);
+    height: 25px;
+    width: 70%;
+}
+header h4{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 2px;
+}
+.main-section pre, code{
+    font-size: 2vmin;
+    background-color: #eee;
+    width: auto;
+}
+.main-section li{
+    background-color: bisque;
+}
+#subsection-title
+{
+  background-color: bisque;
+}
+.main-section a
+{
+  text-decoration: none;
+}
+.main-section a code
+{
+  font-family: verdana, sans;
+}
+.note{
+  background-color: bisque;
+  padding: 1px 20px;
+  border-radius: 10px;
+}

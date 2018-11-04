@@ -1,14 +1,26 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+</head>  
 <body>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <script
 			  src="https://code.jquery.com/jquery-3.3.1.min.js"
 			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 			  crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function() {
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 400) {
+      $('.to_top').fadeIn(200);
+    } else {
+      $('.to_top').fadeOut(200);
+    }
+  })
+})
+</script>
 <main id="main-doc">
+          <div id="navtoggle"><h3>CSS Grid Layout - Basic Concepts - Tap to Expand Menu</h3></div>
           <nav id="navbar">
             <header id="topic"><h2>CSS Grid Layout<br>Basic Concepts</h2></header>
               <a class="nav-link" href="#what_is_a_grid?"><h3>What is a grid?</h3></a>
@@ -342,7 +354,7 @@
   
 </pre>
 
-<p><img src="https://mdn.mozillademos.org/files/14641/1_Nested_Grids_in_flow.png" alt="Nested grid in flow" style="max-width: 500px;"></p>
+<p><img src="https://mdn.mozillademos.org/files/14641/1_Nested_Grids_in_flow.png" alt="Nested grid in flow" style="max-width: 100%;"></p>
 
 <p>If I set <code>box1</code> to <code>display: grid</code> I can give it a track definition and it too will become a grid. The items then lay out on this new grid.</p>
 <pre>
@@ -453,6 +465,33 @@
               <a class="to_top" href="#">To Top</a>
             </footer>
         </main>
+
+<script>
+var nav = document.getElementById("navtoggle");
+var shownav = document.getElementById("navbar");
+var main = document.getElementById("main-doc");
+
+shownav.classList.add('closed');
+nav.classList.add('on');
+
+nav.addEventListener('click', toggleSlider, false);
+shownav.addEventListener('click', toggleSlider, false);
+
+function toggleSlider(){
+    if (shownav.classList.contains('opened')) {
+      shownav.classList.remove('opened');
+      shownav.classList.add('closed');
+        nav.classList.remove('off');
+        nav.classList.add('on');
+        main.className = 'narrow';
+    } else {
+      shownav.classList.remove('closed');
+      shownav.classList.add('opened');
+        nav.classList.remove('on');
+        nav.classList.add('off');
+        main.className = 'wide';
+    }
+}
+</script>
 </body>
 </html>
-  

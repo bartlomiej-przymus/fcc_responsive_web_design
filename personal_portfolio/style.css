@@ -67,6 +67,10 @@ body {
     background-color: white;
     flex-direction: row;
 }
+#navbar{
+    width: 100%;
+}
 #navbar img {
     width: 230px;
+
 }

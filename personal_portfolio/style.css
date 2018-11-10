@@ -65,12 +65,13 @@ body {
     height: 100vh;
     box-shadow: 0 0 10px #DDD;
     background-color: white;
-    flex-direction: row;
+    flex-direction: column;
 }
 #navbar{
+    display: flex;
     width: 100%;
+    border-bottom: 2px solid #00B200;
 }
 #navbar img {
     width: 230px;
-
 }

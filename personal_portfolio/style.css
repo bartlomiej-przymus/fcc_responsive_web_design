@@ -63,7 +63,7 @@ body {
     display: flex;
     width: 90%;
     height: 100vh;
-    box-shadow: 0 0 10px #DDD;
+    box-shadow: 0 0 10px #ccc;
     background-color: white;
     flex-direction: column;
 }
@@ -85,11 +85,33 @@ body {
 #navbar ul li a{
     color: black;
     text-decoration: none;
+    transition: font-size 0.1s;
 }
 #navbar ul li a:hover{
-    color: #00B200
+    color: #00B200;
+    font-size: 20px;
 }
-#navbar img {
+#navbar img{
     margin: auto 10px 5px auto;
     width: 37%;
 }
+#content{
+    margin: 10px;
+    height: 200px; /* sample height */
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00B200;
+    height: 60px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.2) inset;
+}
+footer img{
+    margin: 0 10px;
+    transition: transform 0.5s ease;
+}
+footer img:hover{
+    transform: scale(1.2);
+}
+    

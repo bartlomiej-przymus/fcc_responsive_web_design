@@ -62,28 +62,31 @@ body {
 #main {
     display: flex;
     width: 90%;
-    height: 100vh;
+    height: 100%;
     box-shadow: 0 0 10px #ccc;
     background-color: white;
     flex-direction: column;
+    margin-bottom: auto;
 }
 #navbar{
     display: flex;
     width: 100%;
     border-bottom: 2px solid #00B200;
     height: 55px;
+    box-shadow: 0 3px 3px rgba(0,0,0,.1);
 }
 #navbar ul{
     /* height: 20px; */
     margin: auto 0 5px 5px;
     font-size: 18px;
+    color: #888;
 }
 #navbar ul li{
     display: inline-block;
     margin: 0 5px;
 }
 #navbar ul li a{
-    color: black;
+    color: #888;
     text-decoration: none;
     transition: font-size 0.1s;
 }
@@ -92,10 +95,11 @@ body {
     font-size: 20px;
 }
 #navbar img{
-    margin: auto 10px 5px auto;
+    margin: auto 10px 10px auto;
     height: 30px;
 }
 #content{
+    color: 666;
     margin: 10px;
     height: 200px; /* sample height */
 }
@@ -114,4 +118,3 @@ footer img{
 footer img:hover{
     transform: scale(1.2);
 }
-    

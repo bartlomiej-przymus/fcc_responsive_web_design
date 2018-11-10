@@ -61,7 +61,7 @@ body {
 }
 #main {
     display: flex;
-    width: 700px;
+    width: 90%;
     height: 100vh;
     box-shadow: 0 0 10px #DDD;
     background-color: white;
@@ -71,7 +71,25 @@ body {
     display: flex;
     width: 100%;
     border-bottom: 2px solid #00B200;
+    height: 55px;
+}
+#navbar ul{
+    /* height: 20px; */
+    margin: auto 0 5px 5px;
+    font-size: 18px;
+}
+#navbar ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+#navbar ul li a{
+    color: black;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: #00B200
 }
 #navbar img {
-    width: 230px;
+    margin: auto 10px 5px auto;
+    width: 37%;
 }

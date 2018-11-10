@@ -61,12 +61,14 @@ body {
 }
 #main {
     display: flex;
-    width: 90%;
+    width: 70%;
     height: 100%;
     box-shadow: 0 0 10px #ccc;
     background-color: white;
     flex-direction: column;
     margin-bottom: auto;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
 }
 #navbar{
     display: flex;
@@ -99,9 +101,17 @@ body {
     height: 30px;
 }
 #content{
-    color: 666;
-    margin: 10px;
+    margin: 20px 10px;
     height: 200px; /* sample height */
+}
+#content h1{
+    font-size: 25px;
+    color: #555;
+    font-weight: lighter;
+}
+#content p{
+    margin: 10px 20px;
+    color: #777;
 }
 footer{
     display: flex;

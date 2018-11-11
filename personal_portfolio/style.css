@@ -61,7 +61,7 @@ body {
 }
 #main {
     display: flex;
-    width: 70%;
+    width: 75%;
     height: 100%;
     box-shadow: 0 0 10px #ccc;
     background-color: white;
@@ -79,8 +79,8 @@ body {
 }
 #navbar ul{
     /* height: 20px; */
-    margin: auto 0 5px 5px;
-    font-size: 18px;
+    margin: auto 0 6px 5px;
+    font-size: 2.3vmin;
     color: #888;
 }
 #navbar ul li{
@@ -90,11 +90,11 @@ body {
 #navbar ul li a{
     color: #888;
     text-decoration: none;
-    transition: font-size 0.1s;
+    transition: font-size 0.05s;
 }
 #navbar ul li a:hover{
     color: #00B200;
-    font-size: 20px;
+    font-size: 2.5vmin;
 }
 #navbar img{
     margin: auto 10px 10px auto;

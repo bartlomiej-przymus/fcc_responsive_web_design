@@ -79,7 +79,7 @@ body {
 }
 #navbar ul{
     /* height: 20px; */
-    margin: auto 0 6px 5px;
+    margin: auto 0 6px 15px;
     font-size: 2.3vmin;
     color: #888;
 }
@@ -94,24 +94,32 @@ body {
 }
 #navbar ul li a:hover{
     color: #00B200;
-    font-size: 2.5vmin;
+    font-size: 2.7vmin;
 }
 #navbar img{
-    margin: auto 10px 10px auto;
-    height: 30px;
+    margin: auto 20px 10px auto;
+    height: 3.5vmin;
 }
 #content{
-    margin: 20px 10px;
-    height: 200px; /* sample height */
+    margin: 0 20px;
 }
 #content h1{
+    margin-top: 20px;
     font-size: 25px;
     color: #555;
-    font-weight: lighter;
 }
 #content p{
-    margin: 10px 20px;
+    text-indent: 20px;
+    line-height: 3vmin;
+    margin: 10px 15px 0 15px;
     color: #777;
+    font-weight: 300;
+}
+#content p a{
+    color: #555
+}
+.no-top-margin{
+    margin-top: 0 !important;
 }
 footer{
     display: flex;

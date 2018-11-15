@@ -121,7 +121,6 @@ body {
     margin-left: auto;
     margin-right: 30%;
 }
-
 #content{
     margin: 0 20px;
 }
@@ -139,6 +138,18 @@ body {
 }
 #content p a{
     color: #555
+}
+#welcome-section{
+    background-color: #3c2744;
+}
+#welcome-section h1 {
+    color:#aaa;
+}
+#welcome-section p {
+    color: #ccc;
+}
+#welcome-section p a {
+    color:#ccc;
 }
 .no-top-margin{
     margin-top: 0 !important;
@@ -219,7 +230,7 @@ footer img:hover{
     transform: scale(1.2);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     body {
         font-family: 'Heebo', sans-serif;
         margin: 0;

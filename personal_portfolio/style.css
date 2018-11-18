@@ -141,16 +141,15 @@ body {
 }
 #welcome-section{
     height: 100px;
-    background-color: #3c2744;
 }
 #welcome-section h1 {
-    color:#aaa;
+    color:#555;
 }
 #welcome-section p {
-    color: #ccc;
+    color: #777;
 }
 #welcome-section p a {
-    color:#ccc;
+    color:#777;
 }
 .no-top-margin{
     margin-top: 0 !important;
@@ -181,7 +180,7 @@ body {
     color: white;
     background-color: #00b200;
     height: 20px;
-    width: 50px;
+    width: 45px;
     align-items: center;
     justify-content: center;
     transform: skewX(-20deg);
@@ -208,6 +207,7 @@ body {
     font-size: 15px;
     margin: 10px 10px 20px 10px;
     text-align: justify;
+    height: 150px;
 }
 .links{
     display: flex;

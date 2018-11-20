@@ -139,8 +139,6 @@ body {
 #content p a{
     color: #555
 }
-#welcome-section{
-}
 #welcome-section h1 {
     color:#555;
 }
@@ -159,7 +157,7 @@ body {
     flex-wrap: wrap;
 }
 #project-container{
-    margin: 20px 0 5vmin 0;
+    margin: 15px 0;
     display: flex;
     width: 32%;
     flex-direction: column;
@@ -232,6 +230,7 @@ body {
     text-align: center;
 }
 footer{
+    margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -289,4 +288,12 @@ footer img:hover{
     .project-descr{
         height: auto;
     }
+}
+@media screen and (min-width: 768px) and (max-width: 1450px){
+#project-container{
+    width: 49%;
+}
+.project-descr{
+    height: auto;
+}
 }
